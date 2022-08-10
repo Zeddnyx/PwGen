@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <title>password Generator</title>
+      <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+   </head>
+   <body>
+      <div class="container">
+	 <h2>Password Generator</h2>
+	 <div class="container-in">
+            <fieldset class="fl1" >
+	       <legend>Length</legend>
+	       <input type="number" id="length" placeholder="10"/>
+	    </fieldset><br />
+				
+	    <fieldset class="fl2">
+               <legend>Password</legend><br>
+               <input type="text" id="pw" disabled />
+            </fieldset><br />
+                
+            <div class="container-btn">
+               <button id="btn" onclick="setPw()"><b>Generate</b></button>
+               <br>
+               <button id="saveBtn" onclick="savePw()"><b>Save Password</b></button>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>

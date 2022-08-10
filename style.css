@@ -1,0 +1,75 @@
+:root {
+	--height: 65px;
+	--width: 350px;
+}
+* {
+	
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+        background-color: #1b2022;
+	font-family: Monospace;
+	height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+	height: 500px;
+	width: "device-width";
+}
+
+h2 {
+	text-align: center;
+	color: #41c062;
+	position: relative;
+	bottom: 10px;
+	font-size: 30px;
+}
+.container-in {
+	display: block;
+}
+fieldset {
+	height: var(--height);
+	width:  var(--width);
+	border-radius: 5px;
+	color: white;
+	border: 2px solid #41c062;
+	position: relative;
+        font-size: 15px;
+}
+input {
+	border: 1px solid transparent;
+	background-color: transparent;
+	color: white;
+	font-size: 20px;
+	position: relative;
+        top: 5px;
+}
+#pw {
+   top: -10px;
+   width: 320px;
+}
+input:focus {
+	outline: none;
+}
+
+button {
+	height: 40px;
+	width: var(--width);
+	border-radius: 5px;
+	border: 1px solid transparent;
+	background-color: #41c062;
+	color: white;
+	font-size: 16px;
+}
+button:focus {
+   outline: none;
+}
+
+#saveBtn {
+   background-color: #1E90FF;
+   margin-top: 15px;
+}
